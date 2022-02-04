@@ -12,7 +12,6 @@
   |01/27| [1,2,3 더하기](https://www.acmicpc.net/problem/9095)| [9095](https://github.com/douzone1/Baekjoon/tree/main/Q_9095)|Silver3|
   
 </div>
-
 <div class="pull-right">
 
   ### 탐욕 알고리즘
@@ -29,6 +28,7 @@
 </div>
   
 <div class="pull-left">
+  
 ### 이분탐색
 
 | 월/일 | 문제                           | 풀이 링크 | 난이도 |
@@ -42,6 +42,7 @@
 </div>
 
 <div class="pull-right">
+  
 ### 구현
 
 | 월/일 | 문제                           | 풀이 링크 | 난이도 |
