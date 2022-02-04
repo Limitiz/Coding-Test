@@ -7,7 +7,7 @@
 |2021|[피보나치수 2](https://www.acmicpc.net/problem/2748)|[2748]|Bronze1|
 |2021|[1,2,3 더하기 3](https://www.acmicpc.net/problem/15988)|[15988]|Silver2|
 |2021|[Ezreal 여눈부터 가네 ㅈㅈ](https://www.acmicpc.net/problem/20500)|[20500]|Gold5|
-|2022/01/27| [1,2,3 더하기](https://www.acmicpc.net/problem/9095)| [9095](https://github.com/douzone1/Baekjoon/tree/main/Q_9095)|Silver3|
+|01/27| [1,2,3 더하기](https://www.acmicpc.net/problem/9095)| [9095](https://github.com/douzone1/Baekjoon/tree/main/Q_9095)|Silver3|
 
 ## 탐욕 알고리즘
 
@@ -18,15 +18,14 @@
 |2021|[한조서열정리하고옴ㅋㅋ](https://www.acmicpc.net/problem/14659)|[14659]|Bronze2|
 |2021|[롤케이크](https://www.acmicpc.net/problem/16206)|[16206]|Silver1|
 |2021|[Project Teams](https://www.acmicpc.net/problem/20044)|[20044]|Silver4|
-|2022/ 02/04      | [ATM](https://www.acmicpc.net/problem/11399)    | [11399]|Silver3|
+|02/04      | [ATM](https://www.acmicpc.net/problem/11399)    | [11399]|Silver3|
 
 
 ##이분탐색
 
 | 월/일 | 문제                           | 풀이 링크 | 난이도 |
 | ----------- | ---------------------- | ---------------------- | ------------------------------------|
-
-| 2022/01/26      | [먹을 것인가 먹힐 것인가](https://www.acmicpc.net/problem/7795)    | [7795](https://github.com/douzone1/Baekjoon/tree/main/Q_7795)|Silver3 |
+|01/26| [먹을 것인가 먹힐 것인가](https://www.acmicpc.net/problem/7795)| [7795](https://github.com/douzone1/Baekjoon/tree/main/Q_7795)|Silver3 |
 |2021|[수찾기](https://www.acmicpc.net/problem/1920)|[1920]|Silver4|
 |2021|[나무 자르기](https://www.acmicpc.net/problem/2805)|[2805]|Silver3|
 |2021|[입국심사](https://www.acmicpc.net/problem/3079)|[3079]|Silver1|
