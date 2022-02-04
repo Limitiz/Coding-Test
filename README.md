@@ -1,3 +1,5 @@
+<div class="pull-left">
+
 ### 동적 프로그래밍
 
 | 월/일 | 문제                           | 풀이 링크 | 난이도 |
@@ -8,6 +10,10 @@
 |2021|[1,2,3 더하기 3](https://www.acmicpc.net/problem/15988)|[15988]|Silver2|
 |2021|[Ezreal 여눈부터 가네 ㅈㅈ](https://www.acmicpc.net/problem/20500)|[20500]|Gold5|
 |01/27| [1,2,3 더하기](https://www.acmicpc.net/problem/9095)| [9095](https://github.com/douzone1/Baekjoon/tree/main/Q_9095)|Silver3|
+  
+</div>
+
+<div class="pull-right">
 
 ### 탐욕 알고리즘
 
@@ -20,7 +26,8 @@
 |2021|[Project Teams](https://www.acmicpc.net/problem/20044)|[20044]|Silver4|
 |02/04      | [ATM](https://www.acmicpc.net/problem/11399)    | [11399]|Silver3|
 
-
+</div>
+  
 ### 이분탐색
 
 | 월/일 | 문제                           | 풀이 링크 | 난이도 |
