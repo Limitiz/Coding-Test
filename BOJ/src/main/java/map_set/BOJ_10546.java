@@ -15,14 +15,14 @@ public class BOJ_10546{
         for(int i=0; i<n; i++) {
             String s = br.readLine();
             if(runner.containsKey(s))
-                runner.put(s,runner.get(s)+1);
+                runner.replace(s,runner.get(s)+1);
             else
                 runner.put(s,1);
         }
 
         for(int i=0; i<n-1; i++) {
             String s = br.readLine();
-            runner.put(s, runner.get(s)-1);
+            runner.replace(s, runner.get(s)-1);
         }
 
         for(String key : runner.keySet()){
