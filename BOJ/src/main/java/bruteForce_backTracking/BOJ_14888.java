@@ -7,6 +7,7 @@ import java.util.StringTokenizer;
 
 public class BOJ_14888 {
     static int[] a;
+    static int[] op;
     static int n;
     static int max, min;
 
@@ -14,7 +15,7 @@ public class BOJ_14888 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         n = Integer.parseInt(br.readLine());
         a = new int[n];
-        int[] op = new int[4]; //op[0]= +, op[1]= -, op[2]= *, op[3]= /'
+        op = new int[4]; //op[0]= +, op[1]= -, op[2]= *, op[3]= /'
         max = Integer.MIN_VALUE;
         min = Integer.MAX_VALUE;
 
@@ -26,12 +27,12 @@ public class BOJ_14888 {
         for(int i=0; i<4; i++)
             op[i] = Integer.parseInt(st.nextToken());
 
-        dfs(0,a[0], op);
+        dfs(0,a[0]);
 
         System.out.println(max+"\n"+min);
     }
 
-    public static void dfs(int index, int tmp, int[] op){
+    public static void dfs(int index, int tmp){
         if(index == n-1){
             max = max>tmp ? max : tmp;
             min = min<tmp ? min : tmp;
@@ -40,22 +41,22 @@ public class BOJ_14888 {
 
        if(op[0] !=0) {
            op[0]--;
-           dfs(index+1, tmp + a[index+1], op);
+           dfs(index+1, tmp + a[index+1]);
            op[0]++;
        }
        if(op[1] != 0){
            op[1]--;
-           dfs(index+1, tmp - a[index+1], op);
+           dfs(index+1, tmp - a[index+1]);
            op[1]++;
        }
         if(op[2] !=0) {
             op[2]--;
-            dfs(index+1, tmp * a[index+1], op);
+            dfs(index+1, tmp * a[index+1]);
             op[2]++;
         }
         if(op[3] != 0) {
             op[3]--;
-            dfs(index+1, tmp / a[index+1], op);
+            dfs(index+1, tmp / a[index+1]);
             op[3]++;
         }
     }
