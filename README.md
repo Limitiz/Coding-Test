@@ -33,13 +33,12 @@
 
 | 월/일 | 문제                           | 풀이 링크 | 난이도 |
 | ----------- | ---------------------- | ---------------------- | ------------------------------------|
-  
-    |2021|[분해합](https://www.acmicpc.net/problem/2231)|[2231]|Bronze2|
-  |2021|[체스판 다시 칠하기](https://www.acmicpc.net/problem/1018)|[1018]|Silver5|
-    |2021|[N과M(1)](https://www.acmicpc.net/problem/15649)|[15649]|Silver3|
-    |2021|[N과M(2)](https://www.acmicpc.net/problem/15650)|[15650]|Silver3|
-    |2021|[N-Queen](https://www.acmicpc.net/problem/9663)|[9663]|Gold5|
-  |02/08|[연산자 끼워넣기](https://www.acmicpc.net/problem/14888)|[14888]|Silver1|
+|2021|[분해합](https://www.acmicpc.net/problem/2231)|[2231]|Bronze2|
+|2021|[체스판 다시 칠하기](https://www.acmicpc.net/problem/1018)|[1018]|Silver5|
+|2021|[N과M(1)](https://www.acmicpc.net/problem/15649)|[15649]|Silver3|
+|2021|[N과M(2)](https://www.acmicpc.net/problem/15650)|[15650]|Silver3|
+|2021|[N-Queen](https://www.acmicpc.net/problem/9663)|[9663]|Gold5|
+|02/08|[연산자 끼워넣기](https://www.acmicpc.net/problem/14888)|[14888]|Silver1|
   
   
 ### 이분탐색
