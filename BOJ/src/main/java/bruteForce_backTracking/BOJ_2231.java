@@ -1,4 +1,4 @@
-package bruteForce;
+package bruteForce_backTracking;
 
 import java.io.BufferedReader;
 import java.io.IOException;
