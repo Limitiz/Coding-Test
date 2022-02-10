@@ -21,10 +21,7 @@ public class BOJ_17219 {
             map.put(url, pw);
         }
 
-        while(m-->0){
-            st = new StringTokenizer(br.readLine());
-            String url = st.nextToken();
-            System.out.println(map.get(url));
-            }
+        while(m-->0)
+            System.out.println(map.get(br.readLine()));
         }
     }
