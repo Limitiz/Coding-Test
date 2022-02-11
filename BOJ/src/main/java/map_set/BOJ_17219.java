@@ -17,9 +17,7 @@ public class BOJ_17219 {
 
         while(n-->0){
             st = new StringTokenizer(br.readLine());
-            String url = st.nextToken();
-            String pw = st.nextToken();
-            map.put(url, pw);
+            map.put(st.nextToken(), st.nextToken());
         }
 
         while(m-->0)
