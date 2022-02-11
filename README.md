@@ -70,7 +70,8 @@
 
 | 월/일 | 문제                           | 풀이 링크 | 난이도 |
 | ----------- | ---------------------- | ---------------------- | ------------------------------------|
-| 2022/02/07      | [배부른 마라토너](https://www.acmicpc.net/problem/10546)    | [10546](https://github.com/douzone1/Baekjoon/tree/main/Q_10546)| Silcer4 |
+| 2022/02/07      | [배부른 마라토너](https://www.acmicpc.net/problem/10546)    | [10546](https://github.com/douzone1/Baekjoon/tree/main/Q_10546)| Silver4 |
+|2022/02/10|[비밀번호 찾기](https://www.acmicpc.net/problem/17219) |[17219]|Silver4|
 
   
 | 월/일 | 문제                           | 풀이 링크 | 문제 분류 |
