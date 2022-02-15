@@ -19,12 +19,9 @@ public class BOJ_1520 {
         for(int i=1; i<n; i++){
             st = new StringTokenizer(br.readLine());
             for(int j=1; j<m; j++)
-                candy[i][j] = Integer.parseInt(st.nextToken());
-        }
+                candy[i][j] =  Integer.parseInt(st.nextToken())
+                                +Math.max(candy[i][j-1], Math.max(candy[i-1][j], candy[i-1][j-1]));
 
-        for(int i=1; i<n; i++){
-            for(int j=1; j<m; j++)
-                candy[i][j] += Math.max(candy[i][j-1], Math.max(candy[i-1][j], candy[i-1][j-1]));
         }
         System.out.println(candy[n-1][m-1]);
     }
