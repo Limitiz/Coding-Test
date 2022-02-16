@@ -20,8 +20,7 @@ public class BOJ_1520 {
             st = new StringTokenizer(br.readLine());
             for(int j=1; j<m; j++)
                 candy[i][j] =  Integer.parseInt(st.nextToken())
-                                +Math.max(candy[i][j-1], Math.max(candy[i-1][j], candy[i-1][j-1]));
-
+                                +Math.max(candy[i][j-1], candy[i-1][j]);
         }
         System.out.println(candy[n-1][m-1]);
     }
