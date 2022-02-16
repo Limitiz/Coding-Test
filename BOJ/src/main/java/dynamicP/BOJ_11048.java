@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class BOJ_1520 {
+public class BOJ_11048 {
     static int candy[][];
     static int n,m;
 
