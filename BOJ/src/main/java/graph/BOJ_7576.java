@@ -23,6 +23,7 @@ public class BOJ_7576 {
 
         int tomato[][] = new int[m][n];
         Queue<Point> q = new LinkedList<>();
+        int unRipe = 0;
 
         for(int i=0; i<m; i++){
             st = new StringTokenizer(br.readLine());
@@ -30,6 +31,7 @@ public class BOJ_7576 {
                 int tmp = Integer.parseInt(st.nextToken());
                 if(tmp == 1)
                     q.add(new Point(i,j));
+                else if(tmp == 0) unRipe++;
                 tomato[i][j] = tmp;
             }
         }
@@ -43,18 +45,22 @@ public class BOJ_7576 {
                 if (p.x < m - 1 && tomato[p.x + 1][p.y] == 0) {
                     tomato[p.x + 1][p.y] = 1;
                     tmp.add(new Point(p.x + 1, p.y));
+                    unRipe--;
                 }
                 if (p.y < n - 1 && tomato[p.x][p.y + 1] == 0) {
                     tomato[p.x][p.y + 1] = 1;
                     tmp.add(new Point(p.x, p.y+1));
+                    unRipe--;
                 }
                 if (p.x > 0 && tomato[p.x - 1][p.y] == 0) {
                     tomato[p.x - 1][p.y] = 1;
                     tmp.add(new Point(p.x - 1, p.y));
+                    unRipe--;
                 }
                 if (p.y > 0 && tomato[p.x][p.y - 1] == 0) {
                     tomato[p.x][p.y - 1] = 1;
                     tmp.add(new Point(p.x, p.y-1));
+                    unRipe--;
                 }
             }
 
@@ -73,14 +79,9 @@ public class BOJ_7576 {
              **/
         }
 
-        for(int[] i : tomato){
-            for(int j : i){
-                if(j == 0) {
-                    System.out.println(-1);
-                    return;
-                }
-            }
-        }
-        System.out.println(time-1);
+        if(unRipe == 0)
+            System.out.println(time-1);
+        else
+            System.out.println(-1);
     }
 }
