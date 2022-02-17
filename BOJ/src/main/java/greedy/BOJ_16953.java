@@ -8,9 +8,10 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 class Node{
-    int time, num;
+    int time;
+    long num;
 
-    Node(int num, int time){
+    Node(long num, int time){
         this.num = num;
         this.time = time;
     }
