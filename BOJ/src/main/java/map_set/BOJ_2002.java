@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 
 public class BOJ_2002 {
+    /**
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
@@ -25,5 +26,32 @@ public class BOJ_2002 {
             map.remove(car);
         }
         System.out.println(fast);
+    }
+     **/
+
+    public static void main(String[] args) throws Exception{
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int N = Integer.parseInt(br.readLine());
+        HashMap<String,Integer> fCar = new HashMap<String,Integer>();
+
+        for(int i=0;i<N;i++) //들어가는 차량
+            fCar.put(br.readLine(), i);
+
+        int cnt = 0;
+        boolean flags[] = new boolean[N];
+
+        int lastFlag = 0;
+        for(int i=0;i<N;i++){
+            int num = fCar.get(br.readLine()); //현재 차량이 들어온 순서
+            flags[num] = true;
+
+            for(int j=lastFlag;j<num;j++){
+                if(!flags[j]){ //앞에 차량이 안나왔으므로 추월차량
+                    cnt++;  break;
+                }
+                else lastFlag = j; //앞에 애들은 다 true이므로 다음부터는 j 앞은 안봐도 됌
+            }
+        }
+        System.out.println(cnt);
     }
 }
