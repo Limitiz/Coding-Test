@@ -36,18 +36,21 @@
 
             //graph 채우기
             for(int i=0; i<n; i++){
-                for(int[] p : pos){
-                    if(Math.abs(p[1]-pos[i][1])+Math.abs(p[2]-pos[i][2]) <= 1000)
-                        graph[i].add(p);
-                }
+                for(int j=i+1; j<n; j++)
+                    if(Math.abs(pos[j][1]-pos[i][1]) + Math.abs(pos[j][2]-pos[i][2]) <= 1000) {
+                        graph[i].add(pos[j]);
+                        graph[j].add(pos[i]);
+                    }
             }
 
-            /** //그래프 확인코드
+            /**
+            //그래프 확인코드
             for(LinkedList<int[]> i : graph){
                 for(int[] j : i)
                     System.out.print(j[0]+"("+j[1]+","+j[2]+")  ");
                 System.out.println();
-            }**/
+            }
+             **/
 
             //dfs
             dfs(0);
