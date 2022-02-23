@@ -21,9 +21,8 @@ public class BOJ_1303 {
         chk = new boolean[n][m];
         army = new char[n][m];
 
-        for(char[] i : army)
-            i = br.readLine().toCharArray();
-
+        for(int i=0; i<n; i++)
+            army[i] = br.readLine().toCharArray();
 
         //따로 그래프 안만들고 탐색
         int b = 0, w = 0;
