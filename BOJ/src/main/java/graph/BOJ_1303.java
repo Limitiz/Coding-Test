@@ -15,8 +15,8 @@ public class BOJ_1303 {
         //입력
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
+        m = Integer.parseInt(st.nextToken());
         n = Integer.parseInt(st.nextToken());
-        m= Integer.parseInt(st.nextToken());
 
         chk = new boolean[n][m];
         army = new char[n][m];
