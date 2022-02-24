@@ -50,7 +50,7 @@ public class BOJ_2573 {
                 if(ice[cur.x][cur.y-1] == 0 && cur.num > 0) cur.num--;
                 if(ice[cur.x][cur.y+1] == 0 && cur.num > 0) cur.num--;
 
-                if(cur.num > 0) tmp.add(cur); //유효한 빙산만 넣기
+                tmp.add(cur);
             }
             time++;
 
@@ -76,6 +76,7 @@ public class BOJ_2573 {
                     System.out.println(time);
                     System.exit(0);
                 }
+
                 ice[cur.x][cur.y] = cur.num; //빙산현황 업데이트
                 q.add(cur);
             }
