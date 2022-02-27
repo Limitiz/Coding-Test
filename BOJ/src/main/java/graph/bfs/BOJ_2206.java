@@ -1,4 +1,4 @@
-package graph;
+package graph.bfs;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,11 +8,11 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-class Point{
+class Loc{
     int x,y,dist;
     boolean hit;
 
-    Point(int x, int y, int dist, boolean hit){
+    Loc(int x, int y, int dist, boolean hit){
         this.x = x;
         this.y = y;
         this.dist = dist;
@@ -46,11 +46,11 @@ public class BOJ_2206 {
     }
 
     public static int bfs(int x, int y, int count) {
-        Queue<Point> q = new LinkedList<>();
-        q.add(new Point(x, y, count, false));
+        Queue<Loc> q = new LinkedList<>();
+        q.add(new Loc(x, y, count, false));
 
         while(!q.isEmpty()){
-            Point cur = q.poll();
+            Loc cur = q.poll();
 
             if(cur.x == n-1 && cur.y == m-1) return cur.dist; //도착
 
@@ -62,15 +62,15 @@ public class BOJ_2206 {
 
                 if (map[nx][ny] == 0) { //벽이 아님
                     if (!chk[nx][ny][0] && !cur.hit) { //벽을 부신적이 없으면 chk[][][0] 방문
-                        q.add(new Point(nx, ny, cur.dist + 1, false));
+                        q.add(new Loc(nx, ny, cur.dist + 1, false));
                         chk[nx][ny][0] = true;
                     } else if (!chk[nx][ny][1] && cur.hit) { //벽을 부신적이 있으면 chk[][][1] 방문
-                        q.add(new Point(nx, ny, cur.dist + 1, true));
+                        q.add(new Loc(nx, ny, cur.dist + 1, true));
                         chk[nx][ny][1] = true;
                     }
                 } else { //벽임
                     if (!cur.hit) {
-                        q.add(new Point(nx, ny, cur.dist + 1, true));
+                        q.add(new Loc(nx, ny, cur.dist + 1, true));
                         chk[nx][ny][1] = true;
                     }
                 }
