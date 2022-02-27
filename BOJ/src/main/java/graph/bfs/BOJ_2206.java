@@ -36,10 +36,12 @@ public class BOJ_2206 {
 
         chk = new boolean[n][m][2]; //0 벽 안부시고 탐색, 1 벽 부시고 탐색
         map = new int[n][m];
+        for(int i=0; i<n; i++){
+            String str = br.readLine();
+            for(int j=0 ;j<m; j++)
+                map[i][j] = str.charAt(j)- '0';
+        }
         
-        for(int i=0; i<n; i++)
-            map[i] = Arrays.stream(br.readLine().split("")).mapToInt(Integer::parseInt).toArray();
-
         System.out.println(bfs(0,0, 1)); //최단거리 구하는거니까 bfs 적합
     }
 
