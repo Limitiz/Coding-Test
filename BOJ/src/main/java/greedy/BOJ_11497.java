@@ -10,7 +10,8 @@ public class BOJ_11497 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
         int t = Integer.parseInt(br.readLine());
-        while (t-- > 0) {
+
+        while(t --> 0) {
             int n = Integer.parseInt(br.readLine());
             int tall[] = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
             int loc[] = new int[n];
@@ -22,17 +23,17 @@ public class BOJ_11497 {
             int right = 1;
 
             loc[0] = tall[0];
-            for(int i=1; i<n; i++){
-                if(i%2 == 1) loc[left--] = tall[i];
+            for (int i = 1; i < n; i++) {
+                if(i%2==1) loc[left--] = tall[i];
                 else loc[right++] = tall[i];
             }
 
-            status(loc); //확인용 코드
+            //status(loc); //확인용 코드
 
             //레벨 최대값 구하기
-            int level = Math.abs(loc[n-1] - loc[0]);
-            for(int i=1; i<n; i++)
-                level = Math.max(level, Math.abs(loc[i]) - loc[i-1]);
+            int level = Math.abs(loc[n-1]-loc[0]);
+            for (int i = 1; i < n; i++)
+                level = Math.max(level, Math.abs(loc[i]-loc[i-1]));
             sb.append(level+"\n");
         }
         System.out.println(sb);
