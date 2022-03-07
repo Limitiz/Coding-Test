@@ -3,7 +3,6 @@ package greedy;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
 
 public class BOJ_19621 {
     static int n, max = 0;
@@ -13,11 +12,8 @@ public class BOJ_19621 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         n = Integer.parseInt(br.readLine());
         people = new int[n];
-        for(int i=0; i<n; i++){
-            StringTokenizer st = new StringTokenizer(br.readLine());
-            st.nextToken(); st.nextToken();
-            people[i] = Integer.parseInt(st.nextToken());
-        }
+        for(int i=0; i<n; i++)
+            people[i] = Integer.parseInt(br.readLine().split(" ")[2]);
 
         //최대 인원을 고려해야 하므로 완전탐색
         dfs(0, 0);
