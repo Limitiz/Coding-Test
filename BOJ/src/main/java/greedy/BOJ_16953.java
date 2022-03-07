@@ -7,34 +7,28 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-class Node{
-    int time;
-    long num;
-
-    Node(long num, int time){
-        this.num = num;
-        this.time = time;
-    }
-}
 public class BOJ_16953 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int a = Integer.parseInt(st.nextToken());
-        int b = Integer.parseInt(st.nextToken());
-        Queue<Node> q = new LinkedList<>();
+        long A = Long.parseLong(st.nextToken());
+        long B = Long.parseLong(st.nextToken());
+        int count = 1;
 
-        Node n = null;
-        q.add(new Node(a,1));
-        while(!q.isEmpty()){
-            n = q.poll();
-            if(n.num*2 == b || n.num*10+1 == b) break;
-            if(n.num*10+1 < b) q.add(new Node(n.num*10+1, n.time+1));
-            if(n.num*2 < b) q.add(new Node(n.num*2, n.time+1));
+        // 역순으로 가기
+        while(A < B){
+            if(B%2 == 0){
+                B = B/2;
+                count++;
+            }
+            else if(B%10 == 1){
+                B = B/10;
+                count++;
+            }
+            else break;
         }
-        if(n.num*2 == b || n.num*10+1 == b)
-            System.out.println(n.time+1);
-        else
-            System.out.println(-1);
+
+        if(A != B) System.out.println(-1);
+        else System.out.println(count);
     }
 }
