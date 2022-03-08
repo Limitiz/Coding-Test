@@ -26,9 +26,10 @@ public class Main {
 	}
 	
 	public static void dfs(int i, int sum) {
-		if(sum == s) cnt++; 
-		
-		if(i == n-1) return; 
+		if(i == n) {
+			if(sum == s) cnt++;
+			return;
+		}
 		
 		dfs(i+1, sum+seq[i]); //더하고 넘어가기
 		dfs(i+1, sum); //안 더하고 넘어가기
