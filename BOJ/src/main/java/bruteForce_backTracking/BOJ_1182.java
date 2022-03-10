@@ -1,9 +1,9 @@
-package bruteForce_backTracking
+package bruteForce_backTracking;
 
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class BOJ_1182 {
 	static int[] seq;
 	static int n, s, cnt = 0;
 
