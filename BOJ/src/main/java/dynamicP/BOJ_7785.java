@@ -9,9 +9,10 @@ public class BOJ_7785 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
+        StringBuilder sb = new StringBuilder();
 
         int n = Integer.parseInt(br.readLine());
-        HashSet<String> set = new HashSet();
+        TreeSet<String> set = new TreeSet();
 
         //set으로 구현 (value를 넣을 필요가 없음)
         for(int i = 0; i<n; i++){
@@ -21,10 +22,8 @@ public class BOJ_7785 {
             else set.add(name);
         }
 
-        //set 정렬
-        List<String> list = new ArrayList(set);
-        Collections.sort(list, Comparator.reverseOrder());
-
-        for(String i : list) System.out.println(i);
+        set = (TreeSet<String>)set.descendingSet();
+        for(String i : set) sb.append(i+"\n");
+        System.out.println(sb);
     }
 }
