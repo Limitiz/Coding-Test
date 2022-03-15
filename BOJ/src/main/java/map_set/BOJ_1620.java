@@ -16,26 +16,26 @@ public class BOJ_1620 {
         int n = Integer.parseInt(st.nextToken());
         int m = Integer.parseInt(st.nextToken());
 
-        HashMap<Integer, String> pocketmon = new HashMap<>();
+        HashMap<String, Integer> name = new HashMap<>(); //이름으로 번호 찾기
+        String num[] = new String[n+1]; //번호로 이름 찾기
         String answer[] = new String[m];
 
-        for(int i=1; i<=n; i++) pocketmon.put(i, br.readLine());
+        for(int i=1; i<=n; i++) {
+            String tmp = br.readLine();
+            name.put(tmp, i);
+            num[i] = tmp;
+        }
 
         //정답 맞추기
         for(int i=0; i<m; i++) {
             String tmp = br.readLine();
 
-            if(tmp.charAt(0) < 'A') //숫자입력 받음
-                sb.append(pocketmon.get(Integer.parseInt(tmp))+"\n");
+            if(tmp.charAt(0) < 'A') //숫자 입력받음
+                sb.append(num[Integer.parseInt(tmp)]+"\n");
 
-            else { //문자 입력받음
-                for(int key : pocketmon.keySet()){
-                    if(tmp.equals(pocketmon.get(key)))
-                        sb.append(key+"\n");
-                }
-            }
+            else // 문자 입력받음
+                sb.append(name.get(tmp)+"\n");
         }
-
         System.out.println(sb);
     }
 }
