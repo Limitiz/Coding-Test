@@ -15,11 +15,14 @@ public class BOJ_1206_Matrix {
     static int n;
 
     public static void main(String[] args) throws IOException {
+        //입력
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine()," ");
         n = Integer.parseInt(st.nextToken())+1;
         int m = Integer.parseInt(st.nextToken());
-        int v = Integer.parseInt(st.nextToken());
+        int v = Integer.parseInt(st.nextToken()); //시작 정점
+        
+        //graph 만들기
         matrix = new int[n][n];
         for(int i=0; i<m; i++){
             st = new StringTokenizer(br.readLine()," ");
@@ -28,11 +31,15 @@ public class BOJ_1206_Matrix {
             matrix[a][b] = 1;
             matrix [b][a] = 1;
         }
+        
+        //dfs
         dCheck = new boolean[n];
-        bCheck = new boolean[n];
-
         dfs(v);
+        
         System.out.println();
+        
+        //bfs
+        bCheck = new boolean[n];
         bfs(v);
 
         br.close();
