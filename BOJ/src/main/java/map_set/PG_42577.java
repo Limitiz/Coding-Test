@@ -14,9 +14,9 @@ public class PG_42577 {
 		
 		//찾기
 		for(String s : phone_book) {
-			for (int i = 0; i < s.length()-1; i++) {
-                String slice = s.substring(0, i + 1);
-                if (set.contains(slice)) return false;
+		    for (int i = 0; i < s.length()-1; i++) {
+               	 	String slice = s.substring(0, i + 1);
+                        if (set.contains(slice)) return false;
 			}
 		}
 		return true;
