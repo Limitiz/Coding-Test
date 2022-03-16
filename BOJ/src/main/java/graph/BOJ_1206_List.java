@@ -9,6 +9,7 @@ public class BOJ_1206_List {
     static Vector<Integer> list[];
     static boolean check[];
     public static void main(String[] args) throws IOException {
+        //입력
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine()," ");
         int n = Integer.parseInt(st.nextToken())+1;
@@ -16,8 +17,12 @@ public class BOJ_1206_List {
         int v = Integer.parseInt(st.nextToken());
 
         list = new Vector[n];
+        
+        //꼭 초기화를 해줘야함
         for(int i=0; i<n; i++)
             list[i] = new Vector<Integer>();
+        
+        //그래프 만들기
         for(int i=0; i<m; i++){
             st = new StringTokenizer(br.readLine()," ");
             int a = Integer.parseInt(st.nextToken());
@@ -25,12 +30,18 @@ public class BOJ_1206_List {
             list[a].add(b);
             list[b].add(a);
         }
+        
+        //정렬
         for(int i=0; i<n; i++)
             Collections.sort(list[i]);
 
+        //dfs
         check = new boolean[n];
         dfs(v);
+        
         System.out.println();
+        
+        //bfs
         check = new boolean[n];
         bfs(v);
 
