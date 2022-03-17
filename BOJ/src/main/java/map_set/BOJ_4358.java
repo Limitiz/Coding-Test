@@ -12,9 +12,12 @@ public class BOJ_4358 {
 
         //key=이름, value=개수, 나중에 오름차순으로 출력해야하니까 TreeSet
         TreeMap<String, Integer> tree = new TreeMap();
-        int n = 1; //입력 개수
-        String name = br.readLine();
-        while(name != null){ //더 이상 입력이 없을 때 까지
+        int n = 0; //입력 개수
+
+        while(true){
+            String name = br.readLine();
+            if(name == null || name.length() == 0) break; //입력 없을때까지 받기
+            
             if(tree.containsKey(name)) tree.replace(name, tree.get(name)+1);
             else tree.put(name, 1);
             n++;
