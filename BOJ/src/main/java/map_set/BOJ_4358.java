@@ -17,15 +17,16 @@ public class BOJ_4358 {
         while(true){
             String name = br.readLine();
             if(name == null || name.length() == 0) break; //입력 없을때까지 받기
-            
+
             if(tree.containsKey(name)) tree.replace(name, tree.get(name)+1);
             else tree.put(name, 1);
+
             n++;
         }
 
         //출력
         for(String key : tree.keySet())
-            sb.append(key+" "+Math.round(tree.get(key)*10000/10000.0)+"\n");
+            sb.append(key+" "+String.format("%.4f",100.0*tree.get(key)/n)+"\n");
         System.out.println(sb);
     }
 }
