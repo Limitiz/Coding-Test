@@ -59,7 +59,7 @@ public class BOJ_2573 {
             }
             time++;
 
-            //checkStatus(ice); //확인용 코드
+            checkStatus(ice); //확인용 코드
 
             //빙산 현황 업데이트
             while(!tmp.isEmpty()) {
@@ -107,5 +107,6 @@ public class BOJ_2573 {
                 System.out.print(j+" ");
             System.out.println();
         }
+        System.out.println();
     }
 }

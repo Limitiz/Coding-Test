@@ -68,7 +68,7 @@ public class BOJ_7576 {
                 q.add(tmp.poll());
             time++;
 
-            /** //확인용 코드
+            //확인용 코드
             System.out.println(time);
             for(int[] i : tomato){
                 for(int j : i)
@@ -76,7 +76,7 @@ public class BOJ_7576 {
                 System.out.println();
             }
             System.out.println();
-             **/
+
         }
 
         if(unRipe == 0)
