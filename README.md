@@ -30,7 +30,7 @@
   2021, 백준 : [14659 한조서열정리하고옴ㅋㅋ] (https://www.acmicpc.net/problem/14659) 🥉2 </br>
   2021, 백준 : [16206 롤케이크] (https://www.acmicpc.net/problem/16206)🥈1 </br>
   2021, 백준 : [20044 Project Teams] (https://www.acmicpc.net/problem/20044) 🥈4 </br>
-  2/4, 백준 : [11399 ATM](https://www.acmicpc.net/problem/11399) 🥈3/br>
+  2/4, 백준 : [11399 ATM](https://www.acmicpc.net/problem/11399) 🥈3 </br>
   2/17, 백준 알고리즘 : [16953 A->B](https://www.acmicpc.net/problem/16953)  </br> 
   2/28, 백준 : [1026 보물] (https://www.acmicpc.net/problem/1026)  </br>
   3/1, 백준 : [11501 주석] (https://www.acmicpc.net/problem/11501)  </br>
@@ -82,10 +82,10 @@
     </STRONG>
   </summary>
      <br/>
-  2021, 백준 : [1920 수찾기] (https://www.acmicpc.net/problem/1920)🥈4
-  2021, 백준 : [2805 나무 자르기] (https://www.acmicpc.net/problem/2805)🥈3
-  2021, 백준 : [3079 입국심사] (https://www.acmicpc.net/problem/3079)🥈1
-  2021, 백준 : [16401 과자 나눠주기] (https://www.acmicpc.net/problem/16401)🥈3
+  2021, 백준 : [1920 수찾기] (https://www.acmicpc.net/problem/1920)🥈4  </br>
+  2021, 백준 : [2805 나무 자르기] (https://www.acmicpc.net/problem/2805)🥈3 </br>
+  2021, 백준 : [3079 입국심사] (https://www.acmicpc.net/problem/3079)🥈1 </br>
+  2021, 백준 : [16401 과자 나눠주기] (https://www.acmicpc.net/problem/16401)🥈3 </br>
   1/26, 백준 : [7795_먹을 것인가 먹힐 것인가] (https://www.acmicpc.net/problem/7795) 🥈3 </br>
   </div>
  </details>
