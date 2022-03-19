@@ -13,6 +13,11 @@
   2021, 백준 : [20500 Ezreal 여눈부터 가네 ㅈㅈ](https://www.acmicpc.net/problem/20500) 🥇5 </br>
   01/27, 백준 : [9095 1,2,3 더하기](https://www.acmicpc.net/problem/9095) 🥈3 </br>
   2/15, 백준 : [11048 이동하기](https://www.acmicpc.net/problem/11048) 🥈1 </br> 
+  3/21, 백준 : [2839 설탕 배달](https://www.acmicpc.net/problem/2839) 🥉1 </br>
+  3/22, 백준 : [2670 연속부분최대곱](https://www.acmicpc.net/problem/2670) 🥈4 </br>
+  3/23, 백준 : [1463 1로 만들기](https://www.acmicpc.net/problem/1463) 🥈3 </br>
+  3/24, 백준 : [9461 파도반 수열](https://www.acmicpc.net/problem/9461)  🥈3   </br>
+  3/25, 백준 : [2579 계단 오르기](https://www.acmicpc.net/problem/2579)🥈3 </br>
 
   </div>
  </details>
@@ -31,16 +36,15 @@
   2021, 백준 : [16206 롤케이크 (https://www.acmicpc.net/problem/16206)🥈1 </br>
   2021, 백준 : [20044 Project Teams](https://www.acmicpc.net/problem/20044) 🥈4 </br>
   2/4, 백준 : [11399 ATM](https://www.acmicpc.net/problem/11399) 🥈3 </br>
-  2/17, 백준 알고리즘 : [16953 A->B](https://www.acmicpc.net/problem/16953)  </br> 
-  2/28, 백준 : [1026 보물](https://www.acmicpc.net/problem/1026)  </br>
-  3/1, 백준 : [11501 주석](https://www.acmicpc.net/problem/11501)  </br>
-  3/2, 백준 : [1120번 문자열](https://www.acmicpc.net/problem/1120) </br>
-  3/3, 백준 : [11497 통나무 건너뛰기](https://www.acmicpc.net/problem/11497)  </br>
-  3/4, 백준 : [12904 A와 B](https://www.acmicpc.net/problem/12904)  </br> 
-  3/7, 백준 : [19621 회의실 배정 2](https://www.acmicpc.net/problem/19621)  </br>
-  3/8, 백준 : [1182번 부분수열의 합](https://www.acmicpc.net/problem/1182) </br>
-  3/10, 백준 : [11722 가장 긴 감소하는 부분 수열](https://www.acmicpc.net/problem/11722) </br>
-  3/11, 백준 : [9663번 N Queen](https://www.acmicpc.net/problem/9663) </br>
+  2/17, 백준 알고리즘 : [16953 A->B](https://www.acmicpc.net/problem/16953) 🥈1 </br> 
+  2/28, 백준 : [1026 보물](https://www.acmicpc.net/problem/1026) 🥈4 </br>
+  3/1, 백준 : [11501 주석](https://www.acmicpc.net/problem/11501) 🥈2 </br>
+  3/2, 백준 : [1120번 문자열](https://www.acmicpc.net/problem/1120) 🥈4 </br>
+  3/3, 백준 : [11497 통나무 건너뛰기](https://www.acmicpc.net/problem/11497) 🥈1  </br>
+  3/4, 백준 : [12904 A와 B](https://www.acmicpc.net/problem/12904) 🥇5 </br> 
+  3/7, 백준 : [19621 회의실 배정 2](https://www.acmicpc.net/problem/19621) 🥈3  </br>
+  3/8, 백준 : [1182번 부분수열의 합](https://www.acmicpc.net/problem/1182) 🥈2 </br>
+  3/10, 백준 : [11722 가장 긴 감소하는 부분 수열](https://www.acmicpc.net/problem/11722)🥈2 </br>
 
   </div>
  </details>
@@ -70,7 +74,7 @@
   </summary>
      <br>
   1/25, 백준 : [10825_국영수](https://www.acmicpc.net/problem/10825) 🥈4 </br>
-  2/11, 백준 알고리즘 : [2470 두 용액](https://www.acmicpc.net/problem/2470)   </br>
+  2/11, 백준 알고리즘 : [2470 두 용액](https://www.acmicpc.net/problem/2470) 🥇5  </br>
   
   </div>
  </details>
@@ -97,14 +101,14 @@
     </STRONG>
   </summary>
      <br/>
-  2/3, 백준 : [11725 트리의 부모 찾기](https://www.acmicpc.net/problem/11725) </br>
-  2/9, 백준 : [1446 지름길](https://www.acmicpc.net/problem/1446)    </br>
-  2/16, 백준 알고리즘 : [7576 토마토](https://www.acmicpc.net/problem/7576)    </br> 
-  2/21, 백준 : [1260 DFS와 BFS](https://www.acmicpc.net/problem/1260) </br>
+  2/3, 백준 : [11725 트리의 부모 찾기](https://www.acmicpc.net/problem/11725) 🥈2 </br>
+  2/9, 백준 : [1446 지름길](https://www.acmicpc.net/problem/1446)  🥈1  </br>
+  2/16, 백준 알고리즘 : [7576 토마토](https://www.acmicpc.net/problem/7576) 🥇5  </br> 
+  2/21, 백준 : [1260 DFS와 BFS](https://www.acmicpc.net/problem/1260) 🥈2 </br>
   2/22, 백준 : [9205 맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205)   </br>
-  2/23, 백준 : [1303 전투](https://www.acmicpc.net/problem/1303)   </br>
-  2/24, 백준 : [2573 빙산](https://www.acmicpc.net/problem/2573)     </br>
-  2/25, 백준 : [2206 벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)  </br> 
+  2/23, 백준 : [1303 전투](https://www.acmicpc.net/problem/1303) 🥈1 </br>
+  2/24, 백준 : [2573 빙산](https://www.acmicpc.net/problem/2573) 🥇4   </br>
+  2/25, 백준 : [2206 벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) 🥇4  </br> 
   </div>
  </details>
  
