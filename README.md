@@ -1,29 +1,38 @@
 <details>
-  <summary>
-    <STRONG>
-     🗃 Dynamic Programming
-    </STRONG>
-  </summary>
-     <br/>
+  <summary> <STRONG>🗃 Dynamic Programming </STRONG></summary>
+  <br/>
   <div markdown="1">
     
     | 날짜 | 플랫폼 | 문제 | 난이도 |
-    | ----------- | ---------------------- | ---------------------- | ------------------------------------|
-    |2021| 백준 | [1463 1로 만들기](https://www.acmicpc.net/problem/1463) |🥈3 |
-    |2021| 백준 | [1757 달려달려](https://www.acmicpc.net/problem/1757)| 🥇4|
-    |2021| 백준 | [2748 피보나치수 2](https://www.acmicpc.net/problem/2748)| 🥉1 |
-    |2021| 백준 | [15988 1,2,3 더하기 3](https://www.acmicpc.net/problem/15988)| 🥈2 |
-    |2021| 백준 | [20500 Ezreal 여눈부터 가네 ㅈㅈ](https://www.acmicpc.net/problem/20500)| 🥇5|
-    |01/27| 백준 | [9095 1,2,3 더하기](https://www.acmicpc.net/problem/9095) |🥈3 |
-    |2/15| 백준 | [11048 이동하기](https://www.acmicpc.net/problem/11048)| 🥈1 |
-    |3/21| 백준 | [2839 설탕 배달](https://www.acmicpc.net/problem/2839)| 🥉1 |
-    |3/22| 백준 | [2670 연속부분최대곱](https://www.acmicpc.net/problem/2670)| 🥈4 |
-    |3/23| 백준 | [1463 1로 만들기](https://www.acmicpc.net/problem/1463) |🥈3 |
-    |3/24| 백준 | [9461 파도반 수열](https://www.acmicpc.net/problem/9461) | 🥈3 |
-    |3/25| 백준 | [2579 계단 오르기](https://www.acmicpc.net/problem/2579)|🥈3 |
+    | ---- | ---- | ------------------------------------------------------ | ----- |
+    | 2021 | 백준 | [1463 1로 만들기](https://www.acmicpc.net/problem/1463) |🥈3 |
+    | 2021 | 백준 | [1757 달려달려](https://www.acmicpc.net/problem/1757) | 🥇4|
+    | 2021 | 백준 | [2748 피보나치수 2](https://www.acmicpc.net/problem/2748) | 🥉1 |
+    | 2021 | 백준 | [15988 1,2,3 더하기 3](https://www.acmicpc.net/problem/15988) | 🥈2 |
+    | 2021 | 백준 | [20500 Ezreal 여눈부터 가네 ㅈㅈ](https://www.acmicpc.net/problem/20500) | 🥇5 |
+    | 1/27 | 백준 | [9095 1,2,3 더하기](https://www.acmicpc.net/problem/9095) |🥈3 |
+    | 2/15 | 백준 | [11048 이동하기](https://www.acmicpc.net/problem/11048) | 🥈1 |
+    | 3/21 | 백준 | [2839 설탕 배달](https://www.acmicpc.net/problem/2839) | 🥉1 |
+    | 3/22 | 백준 | [2670 연속부분최대곱](https://www.acmicpc.net/problem/2670) | 🥈4 |
+    | 3/23 | 백준 | [1463 1로 만들기](https://www.acmicpc.net/problem/1463) | 🥈3 |
+    | 3/24 | 백준 | [9461 파도반 수열](https://www.acmicpc.net/problem/9461) | 🥈3 |
+    | 3/25 | 백준 | [2579 계단 오르기](https://www.acmicpc.net/problem/2579) | 🥈3 |
 
   </div>
  </details>
+ 
+
+
+| 월/일 | 문제                           | 풀이 링크 | 문제 분류 |
+| ----------- | ---------------------- | ---------------------- | ------------------------------------|
+| 01/25      | [10825_국영수](https://www.acmicpc.net/problem/10825)       | [10825]| 정렬 |
+| 01/26      | [7795_먹을 것인가 먹힐 것인가](https://www.acmicpc.net/problem/7795)    | [7795]| 이분 탐색 |
+| 01/27      | [9095_1,2,3 더하기](https://www.acmicpc.net/problem/9095)| [9095]| 다이나믹 프로그래밍 |
+| 01/28      | [1157_단어공부](https://www.acmicpc.net/problem/1157)       | [1157] | 구현 |
+  </div>
+  
+ </details>
+
  
  <details>
   <summary>
