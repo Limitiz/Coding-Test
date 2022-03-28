@@ -1,7 +1,4 @@
-<details>
-  <summary> <STRONG>🗃 Dynamic Programming </STRONG></summary>
-  <br/>
-  <div markdown="1">
+
     
     | 날짜 | 플랫폼 | 문제 | 난이도 |
     | ---- | ---- | ------------------------------------------------------ | ----- |
@@ -18,8 +15,6 @@
     | 3/24 | 백준 | [9461 파도반 수열](https://www.acmicpc.net/problem/9461) | 🥈3 |
     | 3/25 | 백준 | [2579 계단 오르기](https://www.acmicpc.net/problem/2579) | 🥈3 |
 
-  </div>
- </details>
  
 
 
