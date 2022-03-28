@@ -18,9 +18,6 @@
     | 2/15 | 백준 | [11048 이동하기](https://www.acmicpc.net/problem/11048) | 🥈1 |
     | 3/21 | 백준 | [2839 설탕 배달](https://www.acmicpc.net/problem/2839) | 🥉1 |
     | 3/22 | 백준 | [2670 연속부분최대곱](https://www.acmicpc.net/problem/2670) | 🥈4 |
-    | 3/23 | 백준 | [1463 1로 만들기](https://www.acmicpc.net/problem/1463) | 🥈3 |
-    | 3/24 | 백준 | [9461 파도반 수열](https://www.acmicpc.net/problem/9461) | 🥈3 |
-    | 3/25 | 백준 | [2579 계단 오르기](https://www.acmicpc.net/problem/2579) | 🥈3 |
       
   </div>
  </details>
