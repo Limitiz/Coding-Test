@@ -19,8 +19,7 @@ public class BOJ_11047 {
         //역순으로 접근
         int count = 0;
         for(int i=n-1; i>=0; i--){
-            if(k == 0) break;
-            if(k/price[i] == 0) continue;
+            if(k < price[i]) continue;
 
             count += k/price[i];
             k = k%price[i];
