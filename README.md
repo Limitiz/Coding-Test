@@ -46,6 +46,9 @@
   3/7, 백준 : [19621 회의실 배정 2](https://www.acmicpc.net/problem/19621) 🥈3  </br>
   3/8, 백준 : [1182번 부분수열의 합](https://www.acmicpc.net/problem/1182) 🥈2 </br>
   3/10, 백준 : [11722 가장 긴 감소하는 부분 수열](https://www.acmicpc.net/problem/11722)🥈2 </br>
+  3/28, 백준 : [4769번 캠핑](https://www.acmicpc.net/problem/4769) 🥈5 </br>
+  3/29, 백준 : [11047번 동전 0](https://www.acmicpc.net/problem/11047) 🥈3 </br>
+  3/31, 백준 : [1080번 행렬](https://www.acmicpc.net/problem/1080) 🥈1 </br>
 
   </div>
  </details>
