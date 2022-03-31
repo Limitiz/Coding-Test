@@ -38,8 +38,10 @@ public class BOJ_1080 {
                 if(a[i][j] != b[i][j]) {
                     transform(i,j);
                     count++;
+                    /*//확인용 코드
+                    System.out.println("반전이 일어난 시작 지점 : ("+i+","+j+")");
+                    status(a); System.out.println(); */
                 }
-                //status(a); System.out.println(); //확인용 코드
             }
         }
 
