@@ -16,13 +16,6 @@ public class BOJ_1080 {
         int n = Integer.parseInt(st.nextToken());
         int m = Integer.parseInt(st.nextToken());
 
-        //n이나 m이 3보다 작으면 변환 불가능
-        if(n<3 || m<3){
-            if(Arrays.deepEquals(a,b)) System.out.println(0);
-            else System.out.println(-1);
-            System.exit(0);
-        }
-
         //배열 입력
         a = new int[n][m];
         b = new int[n][m];
@@ -30,6 +23,13 @@ public class BOJ_1080 {
             a[i] = Arrays.stream(br.readLine().split("")).mapToInt(Integer::parseInt).toArray();
         for(int i=0; i<n; i++)
             b[i] = Arrays.stream(br.readLine().split("")).mapToInt(Integer::parseInt).toArray();
+        
+         //n이나 m이 3보다 작으면 변환 불가능
+        if(n<3 || m<3){
+            if(Arrays.deepEquals(a,b)) System.out.println(0);
+            else System.out.println(-1);
+            System.exit(0);
+        }
 
         //(0,0)부터 시작해서 가장자리를 공략해보자
         int count = 0;
