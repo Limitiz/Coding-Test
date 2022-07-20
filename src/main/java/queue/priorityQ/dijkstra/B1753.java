@@ -11,7 +11,7 @@ public class B1753 {
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
         StringBuilder sb = new StringBuilder();
 
-        int v = Integer.parseInt(st.nextToken());
+        int v = Integer.parseInt(st.nextToken()); //정점 개수
         int e = Integer.parseInt(st.nextToken());
         int k = Integer.parseInt(br.readLine());
 

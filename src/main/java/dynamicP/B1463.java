@@ -1,11 +1,13 @@
 package dynamicP;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class B1463 {
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int n = Integer.parseInt(br.readLine());
         int dp[] = new int[n+3];
         dp[1] = 0; dp[2] = 1; dp[3] = 1;
 
@@ -17,7 +19,5 @@ public class B1463 {
                 dp[i] = Math.min(dp[i], dp[i/3]+1);
         }
         System.out.println(dp[n]);
-
-        sc.close();
     }
 }

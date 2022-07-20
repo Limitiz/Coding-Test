@@ -1,0 +1,13 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+.gradle
+src/main/java/_codingTest/*.java
+build.gradle
+build/*
+gradlew
+gradle/*
+gradlew.bat
+settings.gradle
+
+java_pid33424.hprof
+java_pid33424.hprof.79mclg.b.ij

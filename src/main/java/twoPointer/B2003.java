@@ -12,6 +12,7 @@ public class B2003 {
         sc.close();
     }
 
+    //1) 투포인터 방법
     public static int twoPointer(int n, int m){
         Scanner sc = new Scanner(System.in);
         Vector<Integer> v = new Vector<>();
@@ -36,6 +37,7 @@ public class B2003 {
         return count;
     }
 
+    //2) preSum 방법
     public static int preSum(int n, int m){
         Scanner sc = new Scanner(System.in);
         int pre[] = new int[n + 1];
@@ -59,6 +61,7 @@ public class B2003 {
         return count;
     }
 
+    //3) 노가다 방법
     public static int naive(int n, int m) {
         Scanner sc = new Scanner(System.in);
         int pre[] = new int[n];

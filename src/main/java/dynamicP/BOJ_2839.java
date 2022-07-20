@@ -1,4 +1,4 @@
-package dynamicP
+package dynamicP;
 
 import java.io.*;
 import java.util.Arrays;
